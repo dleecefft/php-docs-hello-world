@@ -1,0 +1,2 @@
+--INSERT into jfwatab1 values (102,'clothing:Sketchers size 7','2023-06-16') ; 
+--select * from jfwatab1 ;
