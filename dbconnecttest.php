@@ -15,6 +15,7 @@
     }  else {
         echo "We are lacking something but not erroring out on the database connection";
     } 
+    echo $getResults;
     while ($row = sqlsrv_fetch_array($getResults, SQLSRV_FETCH_ASSOC)) {
      echo ($row['invtagid'] . " " . $row['lostitemtype'] . " " . $row['founddate'] . PHP_EOL);
     }
